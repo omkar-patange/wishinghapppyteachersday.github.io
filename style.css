@@ -3,7 +3,6 @@ body{
 		background: url('background.jpg');
 		background-size: cover;
 		height: 97vh;
-
 		overflow: hidden;
 		text-align: center;
 	}
@@ -52,7 +51,7 @@ body{
 			border-radius: 10px;
 			display: none;
 			transition: 0.2s;
-			color: white;
+			color: white !important;
 			text-shadow: 0px 0px 5px black;
 			word-spacing: 10px;
 			opacity: 0.8;
