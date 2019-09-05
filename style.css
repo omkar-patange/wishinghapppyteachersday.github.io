@@ -48,7 +48,7 @@ body{
 			color: white;
 			opacity: 0.8;
 		}
-		#demo{
+		h1 #demo{
 			position: relative;
 			padding: 40px;
 			text-indent: 150px;
@@ -68,24 +68,19 @@ body{
 			text-align: center;
 		}
 
-		@media (max-width: 576px){
+		@media (min-width: 200px) (max-width: 576px){
 			button{
 
 			padding: 20px;
 			border-radius: 10px;
 			font-size: 15px;
 		}
-		#demo{
+		h1 #demo{
 			padding: 40px;
-			margin-top: 3rem;
+			margin-top: 5rem;
 			text-indent: 100px;
-			/* box-shadow: 2px 2px 10px black; */
-			border-radius: 5px;
-			line-height: 4.2rem;
+			line-height: 7rem;
 			word-spacing: 15px;
-			font-size: 80px;
+			font-size: 10rem;
 		}
-
-
-
-		}
+	}
